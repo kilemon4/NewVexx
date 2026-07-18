@@ -38,5 +38,10 @@
         "UserId": 123,
         "HWID": "Fake-HWID-123",
         "Key": "TGMYC-UOZO7-Y2O40-5IIB3-J1E7E"
+    },
+    {
+        "UserId": 123456,
+        "HWID": "TestKeyHwid12",
+        "Key": "UT74N-FJ4L1-QORLP-QVF8Q-CN1TO"
     }
 ]
