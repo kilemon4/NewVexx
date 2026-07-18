@@ -33,5 +33,10 @@
         "UserId": 11304894582,
         "HWID": "0de81edf-7d80-c231-537a-81c49ad70e89",
         "Key": "Zayne-518"
+    },
+    {
+        "UserId": 123,
+        "HWID": "Fake-HWID-123",
+        "Key": "TGMYC-UOZO7-Y2O40-5IIB3-J1E7E"
     }
 ]
