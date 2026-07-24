@@ -1,7 +1,7 @@
 [
     {
-        "UserId": game.Players.LocalPlayer.UserId,
-        "HWID": (gethwid and gethwid()) or (syn and syn.get_hwid and syn.get_hwid()) or game:GetService("RbxAnalyticsService"):GetClientId(),
+        "UserId": 11339453009,
+        "HWID": 44a13e8aadb5868f7c28b68a1833150f42a6e37ab5edb682205531b6b171617bf1c5abcff458fe73eeb7ab34caf5eaa642c103c35c3ff6afe45db713d354ddf7,
         "Key": "Free-Access"
     }
 ]
