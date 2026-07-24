@@ -1,16 +1,7 @@
-local HttpService = game:GetService("HttpService")
-
--- 1. Get the HWID in a local variable
-local userHWID = (gethwid and gethwid()) or (syn and syn.get_hwid and syn.get_hwid()) or game:GetService("RbxAnalyticsService"):GetClientId()
-
--- 2. Build the Lua table
-local payload = {
+[
     {
-        ["UserId"] = game.Players.LocalPlayer.UserId,
-        ["HWID"] = userHWID,
-        ["Key"] = "Free-Access"
+        "UserId": game.Players.LocalPlayer.UserId,
+        "HWID": (gethwid and gethwid()) or (syn and syn.get_hwid and syn.get_hwid()) or game:GetService("RbxAnalyticsService"):GetClientId(),
+        "Key": "Free-Access"
     }
-}
-
--- 3. Convert it to JSON for your server request
-local jsonPayload = HttpService:JSONEncode(payload)
+]
